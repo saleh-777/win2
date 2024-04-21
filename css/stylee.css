@@ -1,0 +1,43 @@
+#countdown {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 2px black solid;
+
+}
+
+
+#loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.loader-con{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000eb;
+}
+
+.list-group-item{
+    background: transparent;
+}
+
+img {
+    max-width: 100%;
+}
+
+#canvas{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.coco{
+    display: block;
+    position: fixed;
+}
